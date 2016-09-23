@@ -1,0 +1,56 @@
+{
+	"attachment": {
+		"type": "template",
+		"payload": {
+			"template_type": "generic",
+			"elements": [{
+				"title": "Refrigerantes",
+				"subtitle": "Coca Cola 2L - R$8,00",
+				"item_url": "http://peixedelivery.com.br/bebidas/refrigerantes",
+				"buttons": [{
+					"type": "postback",
+					"title": "What is this Bot?",
+					"payload": "What is this Robot?"
+				}]
+			}, {
+				"title": "Cervejas",
+				"subtitle": "Budweiser Long Neck - R$6,00",
+				"item_url": "http://peixedelivery.com.br/bebidas/cervejas",
+				"image_url": "https://raw.githubusercontent.com/matthewericfisher/fb-robot/master/img/evolution.png",
+				"buttons": [{
+					"type": "postback",
+					"title": "Contact",
+					"payload": "Contact"
+				}]
+			}, {
+				"title": "Vinhos",
+				"subtitle": "Vinho Jota Pe Tinto Suave Garrafa 750ml - R$11,90",
+				"item_url": "http://peixedelivery.com.br/bebidas/vinhos",
+				"image_url": "https://raw.githubusercontent.com/matthewericfisher/fb-robot/master/img/danger-man-at-work-hi.png",
+				"buttons": [{
+					"type": "postback",
+					"title": "Tell me a joke 😜",
+					"payload": "joke"
+				}]
+			}, {
+				"title": "Bot Examples",
+				"subtitle": "Some great bots",
+				"item_url": "https://developers.facebook.com/products/messenger/",
+				"image_url": "https://raw.githubusercontent.com/matthewericfisher/fb-robot/master/img/example.jpeg",
+				"buttons": [{
+					"type": "web_url",
+					"url": "https://www.messenger.com/t/HealthTap",
+					"title": "Health Tap"
+				}, {
+					"type": "web_url",
+					"url": "http://www.messenger.com/t/EstherBot",
+					"title": "Esther's cool bot"
+				}, {
+					"type": "web_url",
+					"url": "http://www.messenger.com/t/techcrunch",
+					"title": "TechCrunch news bot"
+				}]
+			}]
+		}
+	}
+}
