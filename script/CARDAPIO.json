@@ -1,0 +1,18 @@
+{
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "button",
+          "text": "Selecione uma parte do menu:",
+          "buttons":[{
+            "type": "postback",
+            "title": "Bebidas",
+            "payload": "bebidas"
+          }, {
+            "type": "postback",
+            "title": "Congelados",
+            "payload": "congelados"
+          }]
+        }
+      }
+}
